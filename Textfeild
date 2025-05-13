@@ -1,0 +1,13 @@
+  TextField(
+                decoration: InputDecoration(
+                    hintText: 'Search',
+                    fillColor: Colors. grey,
+                    filled: true,
+                    prefixIcon: Icon(Icons.search),
+                    enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide.none,
+                        borderRadius: BorderRadius.circular(8)),
+                    focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(8),
+                        borderSide: BorderSide.none)),
+              )
